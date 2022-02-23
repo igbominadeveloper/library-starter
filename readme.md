@@ -12,3 +12,4 @@ This is a library starter repo I setup with typescript + jest support + github a
 - [x] Jest
 - [ ] Eslint
 - [ ] Prettier
+- [ ] Test githooks to prevent pushing failing tests
