@@ -1,4 +1,4 @@
-## Useful string helpers
+## Library starter repo
 
 This is a library starter repo I setup with typescript + jest support + github actions
 
