@@ -8,10 +8,8 @@
   },
   "scripts": {
     "test": "cross-env NODE_ENV=test jest --testTimeout=10000 --forceExit --runInBand",
-    "tsc": "tsc -p . tsconfig.build.json",
-    "dev": "nodemon -r tsconfig-paths/register src/index.ts",
-    "start": "node dist/index.js",
-    "build": "yarn tsc"
+    "tsc": "tsc -p .",
+    "build": "rm -rf ./dist && yarn tsc"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
